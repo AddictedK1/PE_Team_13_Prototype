@@ -27,7 +27,7 @@ def test_mcnemar_exact():
     a = pd.Series(["shortlist"] * 8 + ["reject"] * 2)
     b = pd.Series(["reject"] * 8 + ["shortlist"] * 2)
     r = mcnemar_exact(a, b)
-    assert r["a_only_shortlisted"] == 8 and r["p_value"] < 0.1
+    assert r["a_only_shortlisted"] == 8 and abs(r["p_value"] - 0.109375) < 1e-6
 
 
 def test_accuracy_counts_invalid_as_wrong():
