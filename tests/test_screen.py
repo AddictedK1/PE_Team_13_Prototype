@@ -65,7 +65,7 @@ def test_screen_retry_on_score_out_of_range_then_success():
     mock_client = MockLLMClient(responses=[invalid_score, valid_score])
 
     res = screen(
-        resume="SDE resume.",
+        resume="Software Engineer with 3 years experience in Python, AWS, and system design.",
         prompt_version="v2",
         client=mock_client,
         max_retries=1,
@@ -83,7 +83,7 @@ def test_screen_retry_failure_returns_invalid_object():
     mock_client = MockLLMClient(responses=[invalid_1, invalid_2])
 
     res = screen(
-        resume="Candidate resume.",
+        resume="Software Engineer with 3 years experience in Python, AWS, and system design.",
         prompt_version="v1",
         client=mock_client,
         max_retries=1,
@@ -102,7 +102,7 @@ def test_screen_api_error_handling():
     error_client = MockLLMClient(raise_error=LLMAPIError("API rate limit exceeded", status_code=429))
 
     res = screen(
-        resume="Candidate resume.",
+        resume="Software Engineer with 3 years experience in Python, AWS, and system design.",
         prompt_version="v1",
         client=error_client,
     )
@@ -116,9 +116,10 @@ def test_screen_api_error_handling():
 
 def test_screen_v1_and_v2_prompt_passed():
     mock_client_v1 = MockLLMClient()
-    screen("Resume 1", prompt_version="v1", client=mock_client_v1)
+    screen("Software Engineer candidate with Python skills and university degree.", prompt_version="v1", client=mock_client_v1)
     assert "JOB DESCRIPTION:" in mock_client_v1.recorded_prompts[0]
 
     mock_client_v2 = MockLLMClient()
-    screen("Resume 2", prompt_version="v2", client=mock_client_v2)
+    screen("Software Engineer candidate with Python skills and university degree.", prompt_version="v2", client=mock_client_v2)
     assert "ATTRIBUTE BLINDNESS" in mock_client_v2.recorded_prompts[0]
+
