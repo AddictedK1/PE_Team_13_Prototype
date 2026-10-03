@@ -53,13 +53,17 @@ def format_prompt_with_context(template: str, job_description: Optional[str] = N
     job_desc = (job_description or DEFAULT_JOB_DESCRIPTION).strip() or DEFAULT_JOB_DESCRIPTION
     resume_text = (resume or "").strip()
 
-    formatted = template.format(job_description=job_desc, resume=resume_text)
-    formatted = formatted.replace("{{JOB_DESCRIPTION}}", job_desc)
-    formatted = formatted.replace("{{job_description}}", job_desc)
-    formatted = formatted.replace("{{RESUME}}", resume_text)
-    formatted = formatted.replace("{{resume}}", resume_text)
-    formatted = formatted.replace("{{CANDIDATE_RESUME}}", resume_text)
-    formatted = formatted.replace("{{candidate_resume}}", resume_text)
+    formatted = template
+    for placeholder in ("{{JOB_DESCRIPTION}}", "{{job_description}}", "{job_description}"):
+        formatted = formatted.replace(placeholder, job_desc)
+    for placeholder in (
+        "{{RESUME}}",
+        "{{resume}}",
+        "{{CANDIDATE_RESUME}}",
+        "{{candidate_resume}}",
+        "{resume}",
+    ):
+        formatted = formatted.replace(placeholder, resume_text)
 
     if resume_text and "CANDIDATE RESUME" in formatted and "The candidate's resume is provided as a PDF/document." in formatted:
         formatted = formatted.replace(

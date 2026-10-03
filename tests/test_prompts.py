@@ -53,6 +53,16 @@ def test_custom_prompt_file_is_loaded():
     assert "OUTPUT" in template
 
 
+def test_custom_prompt_formats_context_without_interpreting_json_braces():
+    resume = "Resume with Python and production API experience."
+    job_description = "Backend engineer with Python experience."
+    prompt = get_prompt("custom", resume, job_description=job_description)
+
+    assert job_description in prompt
+    assert resume in prompt
+    assert '"ats_score": 0' in prompt
+
+
 def test_retry_prompt_construction():
     orig = "Screen candidate prompt"
     err = "Score was outside 0-100"

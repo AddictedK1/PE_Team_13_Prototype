@@ -43,8 +43,10 @@ class CandidateEvaluation(BaseModel):
     def normalize_decision(cls, v: Any) -> Any:
         if isinstance(v, str):
             v_lower = v.strip().lower()
-            if v_lower in ("shortlist", "reject"):
-                return v_lower
+            if v_lower == "selected":
+                return "shortlist"
+            if v_lower in ("shortlist", "reject", "rejected"):
+                return "reject" if v_lower == "rejected" else v_lower
         return v
 
 
@@ -138,4 +140,9 @@ def parse_and_validate_llm_output(raw_text: str) -> CandidateEvaluation:
     Raises ValueError or pydantic.ValidationError if invalid.
     """
     json_obj = extract_json_from_text(raw_text)
+    if "score" not in json_obj:
+        if "fitness_score" in json_obj:
+            json_obj["score"] = json_obj["fitness_score"]
+        elif "ats_score" in json_obj:
+            json_obj["score"] = json_obj["ats_score"]
     return CandidateEvaluation(**json_obj)

@@ -26,6 +26,15 @@ def test_valid_reject_json():
     assert "Missing" in evaluation.reason
 
 
+def test_custom_prompt_response_is_normalized():
+    raw = '{"ats_score": 91, "fitness_score": 78, "decision": "selected", "reason": "Strong relevant projects."}'
+    evaluation = parse_and_validate_llm_output(raw)
+
+    assert evaluation.decision == "shortlist"
+    assert evaluation.score == 78
+    assert evaluation.reason == "Strong relevant projects."
+
+
 def test_markdown_code_fence_json():
     raw = """Here is the screening result:
 ```json
