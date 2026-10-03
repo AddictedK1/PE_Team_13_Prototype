@@ -31,9 +31,9 @@ from app.pdf_parser import (
     PDFSizeLimitError,
     extract_resume_text,
 )
-from app.prompts import DEFAULT_JOB_DESCRIPTION
+from app.prompts import DEFAULT_JOB_DESCRIPTION, DEFAULT_PROMPT_TEMPLATE
 from app.schema import ScreeningResult
-from app.screen import screen
+from app.screen import screen, screen_resume_pdf
 
 logger = logging.getLogger(__name__)
 
@@ -133,6 +133,13 @@ def main():
             help="Accepted format: PDF",
         )
 
+        st.text_area(
+            "Gemini prompt template",
+            value=DEFAULT_PROMPT_TEMPLATE,
+            height=260,
+            key="gemini_prompt_template",
+        )
+
         if uploaded_file is not None:
             # Process new file or reprocess if filename changed
             if (
@@ -215,9 +222,29 @@ def main():
                             prompt_version=version_key,
                             job_description=job_desc,
                             client=client,
+                            custom_prompt=st.session_state.gemini_prompt_template,
                         )
                         st.markdown("---")
                         display_result_card(result, f"Screening Result ({version_key.upper()})")
+                    except Exception as e:
+                        st.error(f"Application error: {e}")
+
+        if st.button("Evaluate Uploaded PDF With Gemini", type="primary", use_container_width=True):
+            if uploaded_file is None:
+                st.warning("Please upload a PDF resume before evaluating.")
+            else:
+                with st.spinner("Sending the uploaded PDF and prompt to Gemini..."):
+                    try:
+                        client = get_llm_client(provider=provider_arg)
+                        result = screen_resume_pdf(
+                            pdf_file=uploaded_file,
+                            prompt_text=st.session_state.gemini_prompt_template,
+                            resume_text=st.session_state.extracted_resume_text,
+                            job_description=job_desc,
+                            client=client,
+                        )
+                        st.markdown("---")
+                        display_result_card(result, "Gemini Resume Screening Result")
                     except Exception as e:
                         st.error(f"Application error: {e}")
 

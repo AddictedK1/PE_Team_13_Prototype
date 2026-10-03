@@ -29,7 +29,7 @@ class BaseLLMClient(ABC):
     """Abstract base class for LLM providers."""
 
     @abstractmethod
-    def generate(self, prompt: str, temperature: float = 0.0) -> str:
+    def generate(self, prompt: str, temperature: float = 0.0, pdf_path: Optional[str] = None, pdf_file=None, **kwargs) -> str:
         """Generate text completion from prompt with specified temperature."""
         raise NotImplementedError
 
@@ -49,14 +49,21 @@ class GeminiLLMClient(BaseLLMClient):
         except Exception as e:
             raise LLMAPIError(f"Failed to initialize Gemini client: {e}", original_error=e)
 
-    def generate(self, prompt: str, temperature: float = 0.0) -> str:
+    def generate(self, prompt: str, temperature: float = 0.0, pdf_path: Optional[str] = None, pdf_file=None, **kwargs) -> str:
         try:
             from google.genai import types
 
             config = types.GenerateContentConfig(temperature=temperature)
+            contents = prompt
+
+            if pdf_path is not None or pdf_file is not None:
+                upload_target = pdf_path if pdf_path is not None else pdf_file
+                uploaded_file = self.client.files.upload(file=upload_target)
+                contents = [prompt, uploaded_file]
+
             response = self.client.models.generate_content(
                 model=self.model,
-                contents=prompt,
+                contents=contents,
                 config=config,
             )
             if not response or not response.text:
@@ -91,7 +98,7 @@ class OpenAILLMClient(BaseLLMClient):
         except Exception as e:
             raise LLMAPIError(f"Failed to initialize OpenAI client: {e}", original_error=e)
 
-    def generate(self, prompt: str, temperature: float = 0.0) -> str:
+    def generate(self, prompt: str, temperature: float = 0.0, pdf_path: Optional[str] = None, pdf_file=None, **kwargs) -> str:
         try:
             response = self.client.chat.completions.create(
                 model=self.model,
@@ -127,7 +134,7 @@ class MockLLMClient(BaseLLMClient):
         self.call_count = 0
         self.recorded_prompts: List[str] = []
 
-    def generate(self, prompt: str, temperature: float = 0.0) -> str:
+    def generate(self, prompt: str, temperature: float = 0.0, pdf_path: Optional[str] = None, pdf_file=None, **kwargs) -> str:
         self.recorded_prompts.append(prompt)
         self.call_count += 1
 

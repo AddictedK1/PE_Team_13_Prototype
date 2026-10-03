@@ -34,6 +34,44 @@ def load_default_job_description() -> str:
 DEFAULT_JOB_DESCRIPTION = load_default_job_description()
 
 
+def load_prompt_template(path: Optional[str] = None) -> str:
+    """Load the custom prompt template from the prompts directory if available.
+
+    Falls back to the original v1 template when the file is missing or unreadable.
+    """
+    template_path = Path(path) if path else Path(__file__).resolve().parent.parent / "prompts" / "test_prompt.txt"
+    if template_path.is_file():
+        try:
+            return template_path.read_text(encoding="utf-8").strip()
+        except OSError:
+            pass
+    return PROMPT_V1
+
+
+def format_prompt_with_context(template: str, job_description: Optional[str] = None, resume: str = "") -> str:
+    """Inject the required job description and resume data into a prompt template."""
+    job_desc = (job_description or DEFAULT_JOB_DESCRIPTION).strip() or DEFAULT_JOB_DESCRIPTION
+    resume_text = (resume or "").strip()
+
+    formatted = template.format(job_description=job_desc, resume=resume_text)
+    formatted = formatted.replace("{{JOB_DESCRIPTION}}", job_desc)
+    formatted = formatted.replace("{{job_description}}", job_desc)
+    formatted = formatted.replace("{{RESUME}}", resume_text)
+    formatted = formatted.replace("{{resume}}", resume_text)
+    formatted = formatted.replace("{{CANDIDATE_RESUME}}", resume_text)
+    formatted = formatted.replace("{{candidate_resume}}", resume_text)
+
+    if resume_text and "CANDIDATE RESUME" in formatted and "The candidate's resume is provided as a PDF/document." in formatted:
+        formatted = formatted.replace(
+            "The candidate's resume is provided as a PDF/document.",
+            "The candidate's resume is provided as a PDF/document.\n\nCANDIDATE RESUME TEXT:\n" + resume_text,
+        )
+    elif resume_text and "CANDIDATE RESUME" not in formatted:
+        formatted += "\n\nCANDIDATE RESUME:\n" + resume_text
+
+    return formatted
+
+
 # ==============================================================================
 # PROMPT TEMPLATES (Placeholder implementations for Member 2)
 # ==============================================================================
@@ -103,9 +141,14 @@ Output strictly valid JSON with no additional explanation, commentary, or markdo
 (Use "reject" if score < 70).
 """
 
+
+DEFAULT_PROMPT_TEMPLATE = load_prompt_template()
+
 PROMPTS: Dict[str, str] = {
     "v1": PROMPT_V1,
     "v2": PROMPT_V2,
+    "custom": DEFAULT_PROMPT_TEMPLATE,
+    "test_prompt": DEFAULT_PROMPT_TEMPLATE,
 }
 
 
@@ -127,13 +170,13 @@ def get_prompt(version: str, resume: str, job_description: Optional[str] = None)
         Formatted prompt ready for LLM consumption.
     """
     version_key = version.strip().lower()
-    if version_key not in PROMPTS:
+    if version_key not in PROMPTS and version_key not in {"custom", "test_prompt"}:
         available = ", ".join(PROMPTS.keys())
         raise ValueError(f"Unknown prompt version '{version}'. Available versions: {available}")
 
     job_desc = job_description.strip() if job_description and job_description.strip() else DEFAULT_JOB_DESCRIPTION
-    template = PROMPTS[version_key]
-    return template.format(job_description=job_desc, resume=resume.strip())
+    template = PROMPTS.get(version_key, DEFAULT_PROMPT_TEMPLATE)
+    return format_prompt_with_context(template, job_description=job_desc, resume=resume.strip())
 
 
 def get_retry_prompt(original_prompt: str, raw_response: str, error_detail: str) -> str:

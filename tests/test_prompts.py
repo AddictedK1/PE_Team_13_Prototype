@@ -4,6 +4,7 @@ import pytest
 from app.prompts import (
     DEFAULT_JOB_DESCRIPTION,
     PROMPTS,
+    load_prompt_template,
     get_prompt,
     get_retry_prompt,
 )
@@ -43,6 +44,13 @@ def test_custom_job_description():
     prompt = get_prompt("v1", "Resume text", job_description=custom_jd)
     assert "Machine Learning Engineer" in prompt
     assert "PyTorch required" in prompt
+
+
+def test_custom_prompt_file_is_loaded():
+    template = load_prompt_template()
+    assert "The candidate's resume is provided as a PDF/document." in template
+    assert "{{JOB_DESCRIPTION}}" in template
+    assert "OUTPUT" in template
 
 
 def test_retry_prompt_construction():

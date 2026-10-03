@@ -20,7 +20,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from app.llm_client import BaseLLMClient, LLMAPIError, get_llm_client
-from app.prompts import get_prompt, get_retry_prompt
+from app.prompts import DEFAULT_JOB_DESCRIPTION, DEFAULT_PROMPT_TEMPLATE, format_prompt_with_context, get_prompt, get_retry_prompt
 from app.schema import CandidateEvaluation, ScreeningResult, parse_and_validate_llm_output
 
 logger = logging.getLogger(__name__)
@@ -32,6 +32,8 @@ def screen(
     job_description: Optional[str] = None,
     client: Optional[BaseLLMClient] = None,
     max_retries: int = 1,
+    custom_prompt: Optional[str] = None,
+    pdf_file=None,
 ) -> ScreeningResult:
     """Screen a candidate resume using the specified prompt version.
 
@@ -86,7 +88,11 @@ def screen(
 
     # Format the prompt
     try:
-        initial_prompt = get_prompt(version=version_key, resume=resume, job_description=job_description)
+        if custom_prompt is not None:
+            template = custom_prompt.strip() or DEFAULT_PROMPT_TEMPLATE
+            initial_prompt = format_prompt_with_context(template, job_description=job_description, resume=resume)
+        else:
+            initial_prompt = get_prompt(version=version_key, resume=resume, job_description=job_description)
     except ValueError as e:
         return ScreeningResult(
             valid=False,
@@ -100,7 +106,7 @@ def screen(
     # Primary LLM invocation
     raw_response = ""
     try:
-        raw_response = llm.generate(prompt=initial_prompt, temperature=0.0)
+        raw_response = llm.generate(prompt=initial_prompt, temperature=0.0, pdf_file=pdf_file)
     except LLMAPIError as e:
         logger.warning(f"LLM API error on initial attempt: {e}")
         return ScreeningResult(
@@ -148,7 +154,7 @@ def screen(
             error_detail=validation_error_msg,
         )
         try:
-            retry_raw_response = llm.generate(prompt=retry_prompt, temperature=0.0)
+            retry_raw_response = llm.generate(prompt=retry_prompt, temperature=0.0, pdf_file=pdf_file)
             parsed_retry = parse_and_validate_llm_output(retry_raw_response)
             return ScreeningResult(
                 valid=True,
@@ -192,4 +198,25 @@ def screen(
         retried=False,
         error="validation_failure",
         prompt_version=version_key,
+    )
+
+
+def screen_resume_pdf(
+    pdf_file,
+    prompt_text: Optional[str] = None,
+    resume_text: str = "",
+    job_description: Optional[str] = None,
+    client: Optional[BaseLLMClient] = None,
+    max_retries: int = 1,
+) -> ScreeningResult:
+    """Evaluate a resume PDF by sending the prompt text plus the uploaded PDF file to Gemini."""
+    template = (prompt_text or DEFAULT_PROMPT_TEMPLATE).strip() or DEFAULT_PROMPT_TEMPLATE
+    return screen(
+        resume=resume_text,
+        prompt_version="custom",
+        job_description=job_description,
+        client=client,
+        max_retries=max_retries,
+        custom_prompt=template,
+        pdf_file=pdf_file,
     )
