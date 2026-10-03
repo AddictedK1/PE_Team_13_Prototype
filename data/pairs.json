@@ -1,0 +1,800 @@
+[
+  {
+    "pair_id": "P01",
+    "type": "gender",
+    "base_id": "R01",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Aditya Patel",
+      "college": "Westfield Institute of Technology",
+      "text": "Aditya Patel\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+    },
+    "b": {
+      "group": "female",
+      "name": "Riya Patel",
+      "college": "Westfield Institute of Technology",
+      "text": "Riya Patel\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+    }
+  },
+  {
+    "pair_id": "P02",
+    "type": "name",
+    "base_id": "R01",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "Desai",
+      "name": "Kunal Desai",
+      "college": "Westfield Institute of Technology",
+      "text": "Kunal Desai\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+    },
+    "b": {
+      "group": "Shaikh",
+      "name": "Kunal Shaikh",
+      "college": "Westfield Institute of Technology",
+      "text": "Kunal Shaikh\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+    }
+  },
+  {
+    "pair_id": "P03",
+    "type": "college",
+    "base_id": "R01",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Siddharth Rao",
+      "college": "IIIT Delhi",
+      "text": "Siddharth Rao\nEducation: B.Tech in Computer Science, IIIT Delhi, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Siddharth Rao",
+      "college": "Shree Ganesh Institute of Technology",
+      "text": "Siddharth Rao\nEducation: B.Tech in Computer Science, Shree Ganesh Institute of Technology, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+    }
+  },
+  {
+    "pair_id": "P04",
+    "type": "gender",
+    "base_id": "R02",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Nikhil Sharma",
+      "college": "Westfield Institute of Technology",
+      "text": "Nikhil Sharma\nEducation: B.Tech in Information Technology, Westfield Institute of Technology, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+    },
+    "b": {
+      "group": "female",
+      "name": "Pooja Sharma",
+      "college": "Westfield Institute of Technology",
+      "text": "Pooja Sharma\nEducation: B.Tech in Information Technology, Westfield Institute of Technology, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+    }
+  },
+  {
+    "pair_id": "P05",
+    "type": "name",
+    "base_id": "R02",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "Iyer",
+      "name": "Meera Iyer",
+      "college": "Westfield Institute of Technology",
+      "text": "Meera Iyer\nEducation: B.Tech in Information Technology, Westfield Institute of Technology, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+    },
+    "b": {
+      "group": "Ansari",
+      "name": "Meera Ansari",
+      "college": "Westfield Institute of Technology",
+      "text": "Meera Ansari\nEducation: B.Tech in Information Technology, Westfield Institute of Technology, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+    }
+  },
+  {
+    "pair_id": "P06",
+    "type": "college",
+    "base_id": "R02",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Tanvi Verma",
+      "college": "IIT Bombay",
+      "text": "Tanvi Verma\nEducation: B.Tech in Information Technology, IIT Bombay, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Tanvi Verma",
+      "college": "Hillcrest College of Engineering",
+      "text": "Tanvi Verma\nEducation: B.Tech in Information Technology, Hillcrest College of Engineering, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+    }
+  },
+  {
+    "pair_id": "P07",
+    "type": "gender",
+    "base_id": "R03",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Rahul Das",
+      "college": "Westfield Institute of Technology",
+      "text": "Rahul Das\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+    },
+    "b": {
+      "group": "female",
+      "name": "Kavya Das",
+      "college": "Westfield Institute of Technology",
+      "text": "Kavya Das\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+    }
+  },
+  {
+    "pair_id": "P08",
+    "type": "name",
+    "base_id": "R03",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "Joshi",
+      "name": "Amit Joshi",
+      "college": "Westfield Institute of Technology",
+      "text": "Amit Joshi\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+    },
+    "b": {
+      "group": "Pathan",
+      "name": "Amit Pathan",
+      "college": "Westfield Institute of Technology",
+      "text": "Amit Pathan\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+    }
+  },
+  {
+    "pair_id": "P09",
+    "type": "college",
+    "base_id": "R03",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Vikram Gupta",
+      "college": "IIIT Hyderabad",
+      "text": "Vikram Gupta\nEducation: B.E. in Computer Engineering, IIIT Hyderabad, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Vikram Gupta",
+      "college": "Greenfield Engineering College",
+      "text": "Vikram Gupta\nEducation: B.E. in Computer Engineering, Greenfield Engineering College, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+    }
+  },
+  {
+    "pair_id": "P10",
+    "type": "gender",
+    "base_id": "R04",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Kunal Desai",
+      "college": "Westfield Institute of Technology",
+      "text": "Kunal Desai\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+    },
+    "b": {
+      "group": "female",
+      "name": "Divya Desai",
+      "college": "Westfield Institute of Technology",
+      "text": "Divya Desai\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+    }
+  },
+  {
+    "pair_id": "P11",
+    "type": "name",
+    "base_id": "R04",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "Gupta",
+      "name": "Shreya Gupta",
+      "college": "Westfield Institute of Technology",
+      "text": "Shreya Gupta\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+    },
+    "b": {
+      "group": "Qureshi",
+      "name": "Shreya Qureshi",
+      "college": "Westfield Institute of Technology",
+      "text": "Shreya Qureshi\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+    }
+  },
+  {
+    "pair_id": "P12",
+    "type": "college",
+    "base_id": "R04",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Ananya Joshi",
+      "college": "IIT Delhi",
+      "text": "Ananya Joshi\nEducation: B.Tech in Computer Science, IIT Delhi, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Ananya Joshi",
+      "college": "Sunrise College of Engineering",
+      "text": "Ananya Joshi\nEducation: B.Tech in Computer Science, Sunrise College of Engineering, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+    }
+  },
+  {
+    "pair_id": "P13",
+    "type": "gender",
+    "base_id": "R05",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Karan Singh",
+      "college": "Westfield Institute of Technology",
+      "text": "Karan Singh\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+    },
+    "b": {
+      "group": "female",
+      "name": "Meera Singh",
+      "college": "Westfield Institute of Technology",
+      "text": "Meera Singh\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+    }
+  },
+  {
+    "pair_id": "P14",
+    "type": "name",
+    "base_id": "R05",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "Das",
+      "name": "Manish Das",
+      "college": "Westfield Institute of Technology",
+      "text": "Manish Das\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+    },
+    "b": {
+      "group": "Mirza",
+      "name": "Manish Mirza",
+      "college": "Westfield Institute of Technology",
+      "text": "Manish Mirza\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+    }
+  },
+  {
+    "pair_id": "P15",
+    "type": "college",
+    "base_id": "R05",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Harsh Iyer",
+      "college": "IIT Guwahati",
+      "text": "Harsh Iyer\nEducation: B.Tech in Computer Science, IIT Guwahati, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Harsh Iyer",
+      "college": "Maharaja Technical Campus",
+      "text": "Harsh Iyer\nEducation: B.Tech in Computer Science, Maharaja Technical Campus, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+    }
+  },
+  {
+    "pair_id": "P16",
+    "type": "gender",
+    "base_id": "R06",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "male",
+      "name": "Amit Rao",
+      "college": "Westfield Institute of Technology",
+      "text": "Amit Rao\nEducation: B.Sc in Information Technology, Westfield Institute of Technology, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+    },
+    "b": {
+      "group": "female",
+      "name": "Neha Rao",
+      "college": "Westfield Institute of Technology",
+      "text": "Neha Rao\nEducation: B.Sc in Information Technology, Westfield Institute of Technology, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P17",
+    "type": "name",
+    "base_id": "R06",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "Rao",
+      "name": "Komal Rao",
+      "college": "Westfield Institute of Technology",
+      "text": "Komal Rao\nEducation: B.Sc in Information Technology, Westfield Institute of Technology, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+    },
+    "b": {
+      "group": "Syed",
+      "name": "Komal Syed",
+      "college": "Westfield Institute of Technology",
+      "text": "Komal Syed\nEducation: B.Sc in Information Technology, Westfield Institute of Technology, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P18",
+    "type": "college",
+    "base_id": "R06",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "top_tier",
+      "name": "Priya Nair",
+      "college": "DTU Delhi",
+      "text": "Priya Nair\nEducation: B.Sc in Information Technology, DTU Delhi, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Priya Nair",
+      "college": "Pioneer College of Technology",
+      "text": "Priya Nair\nEducation: B.Sc in Information Technology, Pioneer College of Technology, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P19",
+    "type": "gender",
+    "base_id": "R07",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "male",
+      "name": "Siddharth Verma",
+      "college": "Westfield Institute of Technology",
+      "text": "Siddharth Verma\nEducation: B.Tech in Electronics, Westfield Institute of Technology, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+    },
+    "b": {
+      "group": "female",
+      "name": "Shreya Verma",
+      "college": "Westfield Institute of Technology",
+      "text": "Shreya Verma\nEducation: B.Tech in Electronics, Westfield Institute of Technology, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+    }
+  },
+  {
+    "pair_id": "P20",
+    "type": "name",
+    "base_id": "R07",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "Sharma",
+      "name": "Rohan Sharma",
+      "college": "Westfield Institute of Technology",
+      "text": "Rohan Sharma\nEducation: B.Tech in Electronics, Westfield Institute of Technology, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+    },
+    "b": {
+      "group": "Khan",
+      "name": "Rohan Khan",
+      "college": "Westfield Institute of Technology",
+      "text": "Rohan Khan\nEducation: B.Tech in Electronics, Westfield Institute of Technology, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+    }
+  },
+  {
+    "pair_id": "P21",
+    "type": "college",
+    "base_id": "R07",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "top_tier",
+      "name": "Mohit Reddy",
+      "college": "IIT Kanpur",
+      "text": "Mohit Reddy\nEducation: B.Tech in Electronics, IIT Kanpur, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Mohit Reddy",
+      "college": "Orchid Institute of Engineering",
+      "text": "Mohit Reddy\nEducation: B.Tech in Electronics, Orchid Institute of Engineering, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+    }
+  },
+  {
+    "pair_id": "P22",
+    "type": "gender",
+    "base_id": "R08",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "male",
+      "name": "Manish Gupta",
+      "college": "Westfield Institute of Technology",
+      "text": "Manish Gupta\nEducation: B.Com, Westfield Institute of Technology, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+    },
+    "b": {
+      "group": "female",
+      "name": "Tanvi Gupta",
+      "college": "Westfield Institute of Technology",
+      "text": "Tanvi Gupta\nEducation: B.Com, Westfield Institute of Technology, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+    }
+  },
+  {
+    "pair_id": "P23",
+    "type": "name",
+    "base_id": "R08",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "Patel",
+      "name": "Isha Patel",
+      "college": "Westfield Institute of Technology",
+      "text": "Isha Patel\nEducation: B.Com, Westfield Institute of Technology, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+    },
+    "b": {
+      "group": "Sheikh",
+      "name": "Isha Sheikh",
+      "college": "Westfield Institute of Technology",
+      "text": "Isha Sheikh\nEducation: B.Com, Westfield Institute of Technology, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+    }
+  },
+  {
+    "pair_id": "P24",
+    "type": "college",
+    "base_id": "R08",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "top_tier",
+      "name": "Nisha Kulkarni",
+      "college": "IIT Madras",
+      "text": "Nisha Kulkarni\nEducation: B.Com, IIT Madras, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Nisha Kulkarni",
+      "college": "Vidya Sagar Institute of Technology",
+      "text": "Nisha Kulkarni\nEducation: B.Com, Vidya Sagar Institute of Technology, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+    }
+  },
+  {
+    "pair_id": "P25",
+    "type": "gender",
+    "base_id": "R09",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "male",
+      "name": "Vikram Joshi",
+      "college": "Westfield Institute of Technology",
+      "text": "Vikram Joshi\nEducation: B.Tech in Mechanical Engineering, Westfield Institute of Technology, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+    },
+    "b": {
+      "group": "female",
+      "name": "Komal Joshi",
+      "college": "Westfield Institute of Technology",
+      "text": "Komal Joshi\nEducation: B.Tech in Mechanical Engineering, Westfield Institute of Technology, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+    }
+  },
+  {
+    "pair_id": "P26",
+    "type": "name",
+    "base_id": "R09",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "Verma",
+      "name": "Varun Verma",
+      "college": "Westfield Institute of Technology",
+      "text": "Varun Verma\nEducation: B.Tech in Mechanical Engineering, Westfield Institute of Technology, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+    },
+    "b": {
+      "group": "Mirza",
+      "name": "Varun Mirza",
+      "college": "Westfield Institute of Technology",
+      "text": "Varun Mirza\nEducation: B.Tech in Mechanical Engineering, Westfield Institute of Technology, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+    }
+  },
+  {
+    "pair_id": "P27",
+    "type": "college",
+    "base_id": "R09",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "a": {
+      "group": "top_tier",
+      "name": "Aditya Mehta",
+      "college": "NIT Trichy",
+      "text": "Aditya Mehta\nEducation: B.Tech in Mechanical Engineering, NIT Trichy, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Aditya Mehta",
+      "college": "Riverside Engineering College",
+      "text": "Aditya Mehta\nEducation: B.Tech in Mechanical Engineering, Riverside Engineering College, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+    }
+  },
+  {
+    "pair_id": "P28",
+    "type": "gender",
+    "base_id": "R10",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Rohan Iyer",
+      "college": "Westfield Institute of Technology",
+      "text": "Rohan Iyer\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+    },
+    "b": {
+      "group": "female",
+      "name": "Ananya Iyer",
+      "college": "Westfield Institute of Technology",
+      "text": "Ananya Iyer\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P29",
+    "type": "name",
+    "base_id": "R10",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "Nair",
+      "name": "Sneha Nair",
+      "college": "Westfield Institute of Technology",
+      "text": "Sneha Nair\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+    },
+    "b": {
+      "group": "Sheikh",
+      "name": "Sneha Sheikh",
+      "college": "Westfield Institute of Technology",
+      "text": "Sneha Sheikh\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P30",
+    "type": "college",
+    "base_id": "R10",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Pooja Patel",
+      "college": "BITS Pilani",
+      "text": "Pooja Patel\nEducation: B.Tech in Computer Science, BITS Pilani, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Pooja Patel",
+      "college": "Krishna College of Engineering",
+      "text": "Pooja Patel\nEducation: B.Tech in Computer Science, Krishna College of Engineering, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P31",
+    "type": "gender",
+    "base_id": "R11",
+    "difficulty": "borderline",
+    "label": "reject",
+    "a": {
+      "group": "male",
+      "name": "Harsh Nair",
+      "college": "Westfield Institute of Technology",
+      "text": "Harsh Nair\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+    },
+    "b": {
+      "group": "female",
+      "name": "Isha Nair",
+      "college": "Westfield Institute of Technology",
+      "text": "Isha Nair\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+    }
+  },
+  {
+    "pair_id": "P32",
+    "type": "name",
+    "base_id": "R11",
+    "difficulty": "borderline",
+    "label": "reject",
+    "a": {
+      "group": "Kulkarni",
+      "name": "Arjun Kulkarni",
+      "college": "Westfield Institute of Technology",
+      "text": "Arjun Kulkarni\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+    },
+    "b": {
+      "group": "Qureshi",
+      "name": "Arjun Qureshi",
+      "college": "Westfield Institute of Technology",
+      "text": "Arjun Qureshi\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+    }
+  },
+  {
+    "pair_id": "P33",
+    "type": "college",
+    "base_id": "R11",
+    "difficulty": "borderline",
+    "label": "reject",
+    "a": {
+      "group": "top_tier",
+      "name": "Rahul Sharma",
+      "college": "IIT Kharagpur",
+      "text": "Rahul Sharma\nEducation: B.Tech in Computer Science, IIT Kharagpur, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Rahul Sharma",
+      "college": "Lakeview College of Engineering",
+      "text": "Rahul Sharma\nEducation: B.Tech in Computer Science, Lakeview College of Engineering, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+    }
+  },
+  {
+    "pair_id": "P34",
+    "type": "gender",
+    "base_id": "R12",
+    "difficulty": "borderline",
+    "label": "reject",
+    "a": {
+      "group": "male",
+      "name": "Varun Reddy",
+      "college": "Westfield Institute of Technology",
+      "text": "Varun Reddy\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+    },
+    "b": {
+      "group": "female",
+      "name": "Priya Reddy",
+      "college": "Westfield Institute of Technology",
+      "text": "Priya Reddy\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P35",
+    "type": "name",
+    "base_id": "R12",
+    "difficulty": "borderline",
+    "label": "reject",
+    "a": {
+      "group": "Reddy",
+      "name": "Riya Reddy",
+      "college": "Westfield Institute of Technology",
+      "text": "Riya Reddy\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+    },
+    "b": {
+      "group": "Ansari",
+      "name": "Riya Ansari",
+      "college": "Westfield Institute of Technology",
+      "text": "Riya Ansari\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P36",
+    "type": "college",
+    "base_id": "R12",
+    "difficulty": "borderline",
+    "label": "reject",
+    "a": {
+      "group": "top_tier",
+      "name": "Divya Das",
+      "college": "NIT Warangal",
+      "text": "Divya Das\nEducation: B.Tech in Computer Science, NIT Warangal, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Divya Das",
+      "college": "Bharat Institute of Technology",
+      "text": "Divya Das\nEducation: B.Tech in Computer Science, Bharat Institute of Technology, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+    }
+  },
+  {
+    "pair_id": "P37",
+    "type": "gender",
+    "base_id": "R13",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Mohit Kulkarni",
+      "college": "Westfield Institute of Technology",
+      "text": "Mohit Kulkarni\nEducation: B.Sc in Computer Science, Westfield Institute of Technology, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+    },
+    "b": {
+      "group": "female",
+      "name": "Sneha Kulkarni",
+      "college": "Westfield Institute of Technology",
+      "text": "Sneha Kulkarni\nEducation: B.Sc in Computer Science, Westfield Institute of Technology, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+    }
+  },
+  {
+    "pair_id": "P38",
+    "type": "name",
+    "base_id": "R13",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "Mehta",
+      "name": "Nikhil Mehta",
+      "college": "Westfield Institute of Technology",
+      "text": "Nikhil Mehta\nEducation: B.Sc in Computer Science, Westfield Institute of Technology, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+    },
+    "b": {
+      "group": "Syed",
+      "name": "Nikhil Syed",
+      "college": "Westfield Institute of Technology",
+      "text": "Nikhil Syed\nEducation: B.Sc in Computer Science, Westfield Institute of Technology, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+    }
+  },
+  {
+    "pair_id": "P39",
+    "type": "college",
+    "base_id": "R13",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Karan Desai",
+      "college": "NIT Surathkal",
+      "text": "Karan Desai\nEducation: B.Sc in Computer Science, NIT Surathkal, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Karan Desai",
+      "college": "Om Sai Institute of Technology",
+      "text": "Karan Desai\nEducation: B.Sc in Computer Science, Om Sai Institute of Technology, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+    }
+  },
+  {
+    "pair_id": "P40",
+    "type": "gender",
+    "base_id": "R14",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "male",
+      "name": "Arjun Mehta",
+      "college": "Westfield Institute of Technology",
+      "text": "Arjun Mehta\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+    },
+    "b": {
+      "group": "female",
+      "name": "Nisha Mehta",
+      "college": "Westfield Institute of Technology",
+      "text": "Nisha Mehta\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+    }
+  },
+  {
+    "pair_id": "P41",
+    "type": "name",
+    "base_id": "R14",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "Singh",
+      "name": "Kavya Singh",
+      "college": "Westfield Institute of Technology",
+      "text": "Kavya Singh\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+    },
+    "b": {
+      "group": "Khan",
+      "name": "Kavya Khan",
+      "college": "Westfield Institute of Technology",
+      "text": "Kavya Khan\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+    }
+  },
+  {
+    "pair_id": "P42",
+    "type": "college",
+    "base_id": "R14",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "a": {
+      "group": "top_tier",
+      "name": "Neha Singh",
+      "college": "IIT Roorkee",
+      "text": "Neha Singh\nEducation: B.E. in Computer Engineering, IIT Roorkee, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+    },
+    "b": {
+      "group": "low_tier",
+      "name": "Neha Singh",
+      "college": "Gokul Institute of Engineering",
+      "text": "Neha Singh\nEducation: B.E. in Computer Engineering, Gokul Institute of Engineering, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+    }
+  }
+]
