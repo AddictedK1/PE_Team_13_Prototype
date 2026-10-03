@@ -50,6 +50,7 @@ def test_custom_prompt_file_is_loaded():
     template = load_prompt_template()
     assert "The candidate's resume is provided as a PDF/document." in template
     assert "{{JOB_DESCRIPTION}}" in template
+    assert "PERSONAL INFORMATION:" in template
     assert "OUTPUT" in template
 
 

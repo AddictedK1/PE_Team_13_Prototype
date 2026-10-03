@@ -39,7 +39,11 @@ def load_prompt_template(path: Optional[str] = None) -> str:
 
     Falls back to the original v1 template when the file is missing or unreadable.
     """
-    template_path = Path(path) if path else Path(__file__).resolve().parent.parent / "prompts" / "test_prompt.txt"
+    template_path = (
+        Path(path)
+        if path
+        else Path(__file__).resolve().parent.parent / "prompts" / "test_prompt_improved.txt"
+    )
     if template_path.is_file():
         try:
             return template_path.read_text(encoding="utf-8").strip()
