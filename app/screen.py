@@ -48,6 +48,20 @@ def screen(
     """
     version_key = prompt_version.strip().lower()
 
+    # Pre-screening Application Guardrails
+    from app.guardrails import validate_screening_guardrails
+    guardrail_result = validate_screening_guardrails(resume=resume, job_description=job_description)
+    if not guardrail_result.passed:
+        logger.warning(f"Guardrail triggered: {guardrail_result.guardrail_type} - {guardrail_result.error_message}")
+        return ScreeningResult(
+            valid=False,
+            decision=None,
+            score=None,
+            reason=guardrail_result.error_message or "Blocked by safety guardrails.",
+            error=guardrail_result.guardrail_type,
+            prompt_version=version_key,
+        )
+
     # Resolve LLM client
     try:
         llm = client if client is not None else get_llm_client()
