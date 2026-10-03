@@ -10,7 +10,15 @@ decision, preventing corruption of bias evaluations.
 from __future__ import annotations
 
 import logging
+import sys
+from pathlib import Path
 from typing import Optional
+
+# Ensure project root is in sys.path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from app.llm_client import BaseLLMClient, LLMAPIError, get_llm_client
 from app.prompts import get_prompt, get_retry_prompt
 from app.schema import CandidateEvaluation, ScreeningResult, parse_and_validate_llm_output
