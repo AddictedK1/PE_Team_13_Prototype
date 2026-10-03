@@ -1,0 +1,100 @@
+[
+  {
+    "id": "R01",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "label_reason": "Python, SQL, REST API project, 6 month backend internship",
+    "text": "Candidate R01\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.3 (2025)\nSkills: Python, Django, SQL, PostgreSQL, REST APIs, Git, Docker\nProjects:\n- Inventory Management API: built 14 REST endpoints with Django REST Framework and PostgreSQL, added unit tests and token authentication\n- Blog platform: Django app with user login and comment moderation\nExperience:\n- Backend Intern, 6 months, product startup: built REST endpoints, wrote SQL queries and cut a slow report from 12 seconds to 7 seconds"
+  },
+  {
+    "id": "R02",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "label_reason": "Java, MySQL, Spring Boot REST project, 3 month internship",
+    "text": "Candidate R02\nEducation: B.Tech in Information Technology, Westfield Institute of Technology, CGPA 8.0 (2024)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git, basic React\nProjects:\n- Placement Portal: Spring Boot REST backend with MySQL, role based login for students and recruiters\n- Weather dashboard: React frontend consuming a public REST API\nExperience:\n- Software Intern, 3 months, IT services company: fixed bugs in a Spring Boot service and wrote SQL reports"
+  },
+  {
+    "id": "R03",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "label_reason": "Python Flask REST API deployed on AWS, SQL, 2 month internship",
+    "text": "Candidate R03\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 7.6 (2024)\nSkills: Python, Flask, SQL, MySQL, SQLite, REST APIs, Git, basic AWS EC2\nProjects:\n- Expense Tracker API: Flask REST API with MySQL, 10 endpoints, deployed on an AWS EC2 instance\n- Hackathon project: attendance system using Flask and SQLite, finalist at a college hackathon\nExperience:\n- Python Developer Intern, 2 months: wrote REST endpoints and database queries for an internal tool"
+  },
+  {
+    "id": "R04",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "label_reason": "1.5 years Java Spring Boot REST and PostgreSQL experience",
+    "text": "Candidate R04\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.9 (2023)\nSkills: Java, Spring Boot, PostgreSQL, SQL, REST APIs, Docker, AWS, Git\nExperience:\n- Junior Software Engineer, 1.5 years, IT services company: maintained and extended Spring Boot REST services, wrote PostgreSQL queries, containerised two services with Docker\nProjects:\n- Hotel Booking System: Spring Boot and PostgreSQL, booking and payment status APIs"
+  },
+  {
+    "id": "R05",
+    "difficulty": "clear_good",
+    "label": "shortlist",
+    "label_reason": "Python FastAPI, SQL, two projects, 4 month full stack internship",
+    "text": "Candidate R05\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.5 (2025)\nSkills: Python, FastAPI, SQL, PostgreSQL, MongoDB, REST APIs, Git, Docker, React\nProjects:\n- Task Manager: FastAPI backend with PostgreSQL and a React frontend\n- URL Shortener: FastAPI service with SQL storage and rate limiting, Dockerised\nExperience:\n- Full Stack Intern, 4 months, SaaS startup: built REST endpoints and React screens, wrote database migrations"
+  },
+  {
+    "id": "R06",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "label_reason": "Frontend and design only, no Python or Java, no SQL, no REST",
+    "text": "Candidate R06\nEducation: B.Sc in Information Technology, Westfield Institute of Technology, CGPA 7.2 (2025)\nSkills: HTML, CSS, basic JavaScript, Photoshop\nProjects:\n- Personal portfolio website using HTML and CSS\n- College event poster designs\nExperience:\n- None"
+  },
+  {
+    "id": "R07",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "label_reason": "Electronics background, C only, no projects or experience",
+    "text": "Candidate R07\nEducation: B.Tech in Electronics, Westfield Institute of Technology, CGPA 6.9 (2025)\nSkills: C, MS Office, Arduino basics\nProjects:\n- None\nExperience:\n- None\nCertifications: Introduction to Programming (online, 4 weeks)"
+  },
+  {
+    "id": "R08",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "label_reason": "Manual QA profile, no development skills asked for",
+    "text": "Candidate R08\nEducation: B.Com, Westfield Institute of Technology, CGPA 7.5 (2024)\nSkills: manual testing, test case writing, Jira, Excel\nExperience:\n- QA Intern, 3 months, software company: wrote manual test cases and reported bugs in Jira\nProjects:\n- None"
+  },
+  {
+    "id": "R09",
+    "difficulty": "clear_weak",
+    "label": "reject",
+    "label_reason": "Only basic Python, one file renaming script, no SQL, no REST",
+    "text": "Candidate R09\nEducation: B.Tech in Mechanical Engineering, Westfield Institute of Technology, CGPA 7.1 (2025)\nSkills: Python (basic), Git\nProjects:\n- Python script to rename files in a folder\nExperience:\n- None\nCertifications: Python basics course (online)"
+  },
+  {
+    "id": "R10",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "label_reason": "Meets all four by the rule, but only one small college project and low CGPA",
+    "text": "Candidate R10\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 7.0 (2025)\nSkills: Python, Flask, SQL, SQLite, REST APIs, Git\nProjects:\n- Library Management API: Flask REST API with SQLite for books, members and issue records, 8 endpoints\nExperience:\n- None"
+  },
+  {
+    "id": "R11",
+    "difficulty": "borderline",
+    "label": "reject",
+    "label_reason": "Skills listed and high CGPA, but no project and no internship, only online courses",
+    "text": "Candidate R11\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 9.1 (2025)\nSkills: Python, SQL, REST APIs, Git\nProjects:\n- None\nExperience:\n- None\nCertifications: Python programming, SQL fundamentals and REST API design (online courses)"
+  },
+  {
+    "id": "R12",
+    "difficulty": "borderline",
+    "label": "reject",
+    "label_reason": "Java and REST projects but no SQL anywhere, data kept in memory",
+    "text": "Candidate R12\nEducation: B.Tech in Computer Science, Westfield Institute of Technology, CGPA 8.4 (2024)\nSkills: Java, Spring Boot, REST APIs, Git, HTML, CSS\nProjects:\n- Student Notes API: Spring Boot REST service storing data in memory\n- Chat application using Java sockets\nExperience:\n- None"
+  },
+  {
+    "id": "R13",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "label_reason": "Short 2 month internship that covers Python, SQL and a REST service",
+    "text": "Candidate R13\nEducation: B.Sc in Computer Science, Westfield Institute of Technology, CGPA 7.3 (2024)\nSkills: Python, SQL, REST APIs, Git, Excel automation\nExperience:\n- Automation Intern, 2 months, finance services firm: wrote Python scripts and a small REST service that pulled SQL data for daily reports\nProjects:\n- None"
+  },
+  {
+    "id": "R14",
+    "difficulty": "borderline",
+    "label": "shortlist",
+    "label_reason": "Java, MySQL and a Spring Boot REST project, low CGPA, freelance only",
+    "text": "Candidate R14\nEducation: B.E. in Computer Engineering, Westfield Institute of Technology, CGPA 6.8 (2025)\nSkills: Java, Spring Boot, MySQL, SQL, REST APIs, Git\nProjects:\n- Online Quiz App: Spring Boot REST backend with MySQL, 9 endpoints\nExperience:\n- Freelance, 3 months: built a small order tracking site for a local shop"
+  }
+]
