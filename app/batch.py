@@ -41,11 +41,10 @@ class BatchCandidate(BaseModel):
 def load_counterfactual_pairs(file_path: Optional[Union[str, Path]] = None) -> List[Dict[str, Any]]:
     """Load counterfactual pairs from JSON file.
 
-    Defaults to data/pairs.json (labelled pairs, schema a/b) if not specified.
-    Pairs in the a/b schema are normalised to the candidate_a/candidate_b schema.
+    Defaults to data/counterfactual_pairs.json if not specified.
     """
     if file_path is None:
-        target = Path(__file__).resolve().parent.parent / "data" / "pairs.json"
+        target = Path(__file__).resolve().parent.parent / "data" / "counterfactual_pairs.json"
     else:
         target = Path(file_path)
 
@@ -53,26 +52,7 @@ def load_counterfactual_pairs(file_path: Optional[Union[str, Path]] = None) -> L
         raise FileNotFoundError(f"Counterfactual pairs dataset not found at: {target}")
 
     with open(target, "r", encoding="utf-8") as f:
-        return [_normalise_pair(p) for p in json.load(f)]
-
-
-def _normalise_pair(pair: Dict[str, Any]) -> Dict[str, Any]:
-    """Convert a pairs.json entry (a/b with text) to candidate_a/candidate_b form."""
-    if "a" not in pair or "b" not in pair:
-        return pair
-    out = {k: v for k, v in pair.items() if k not in ("a", "b")}
-    out["bias_category"] = pair.get("type")
-    out["attribute_modified"] = pair.get("type")
-    for side in ("a", "b"):
-        c = pair[side]
-        out[f"candidate_{side}"] = {
-            "candidate_id": f"{pair['pair_id']}{side.upper()}",
-            "attribute_value": c.get("group") or c.get("name"),
-            "resume": c["text"],
-            "name": c.get("name"),
-            "college": c.get("college"),
-        }
-    return out
+        return json.load(f)
 
 
 def flatten_pairs_to_candidates(pairs: List[Dict[str, Any]]) -> List[BatchCandidate]:
