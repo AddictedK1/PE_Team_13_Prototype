@@ -19,8 +19,8 @@ class GuardrailCheckResult(BaseModel):
     """Result of a guardrail validation check."""
 
     passed: bool = Field(..., description="Whether the input passed the guardrail check")
-    guardrail_type: Optional[str] = Field(None, description="Identifier of the guardrail")
-    error_message: Optional[str] = Field(None, description="Human-readable reason for failure")
+    guardrail_type: Optional[str] = Field(default=None, description="Identifier of the guardrail")
+    error_message: Optional[str] = Field(default=None, description="Human-readable reason for failure")
 
 
 # Discriminatory / biased patterns that should never be accepted in hiring criteria or resume input
