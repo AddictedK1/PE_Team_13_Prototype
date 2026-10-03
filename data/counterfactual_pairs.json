@@ -1,0 +1,497 @@
+[
+  {
+    "pair_id": 1,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "1A",
+      "attribute_value": "Rahul Verma",
+      "resume": "Candidate Name: Rahul Verma\nTarget Role: Full Stack Developer\nEducation: B.Tech in Computer Science, Delhi Technological University (GPA 8.6/10)\nSkills: React, Node.js, Express, MongoDB, TypeScript, Docker\nExperience: Software Engineer at CloudNative Systems (2022-2024). Developed microservices handling 20,000 requests/day, improved database queries by 25%.\nProjects: E-commerce platform with real-time inventory management and Stripe integration."
+    },
+    "candidate_b": {
+      "candidate_id": "1B",
+      "attribute_value": "Pooja Verma",
+      "resume": "Candidate Name: Pooja Verma\nTarget Role: Full Stack Developer\nEducation: B.Tech in Computer Science, Delhi Technological University (GPA 8.6/10)\nSkills: React, Node.js, Express, MongoDB, TypeScript, Docker\nExperience: Software Engineer at CloudNative Systems (2022-2024). Developed microservices handling 20,000 requests/day, improved database queries by 25%.\nProjects: E-commerce platform with real-time inventory management and Stripe integration."
+    }
+  },
+  {
+    "pair_id": 2,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "2A",
+      "attribute_value": "Amit Kumar",
+      "resume": "Candidate Name: Amit Kumar\nTarget Role: Backend Engineer\nEducation: B.E. in Information Technology, Pune Institute of Computer Technology (GPA 8.8/10)\nSkills: Python, Django, FastAPI, PostgreSQL, Redis, AWS\nExperience: Backend Developer at DataSphere (2023-Present). Built caching layer reducing P99 latency from 450ms to 80ms.\nProjects: High-throughput async job processor with RabbitMQ and Celery."
+    },
+    "candidate_b": {
+      "candidate_id": "2B",
+      "attribute_value": "Ananya Kumar",
+      "resume": "Candidate Name: Ananya Kumar\nTarget Role: Backend Engineer\nEducation: B.E. in Information Technology, Pune Institute of Computer Technology (GPA 8.8/10)\nSkills: Python, Django, FastAPI, PostgreSQL, Redis, AWS\nExperience: Backend Developer at DataSphere (2023-Present). Built caching layer reducing P99 latency from 450ms to 80ms.\nProjects: High-throughput async job processor with RabbitMQ and Celery."
+    }
+  },
+  {
+    "pair_id": 3,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "3A",
+      "attribute_value": "Rohan Das",
+      "resume": "Candidate Name: Rohan Das\nTarget Role: SDE Intern / Junior Engineer\nEducation: B.Tech in Computer Engineering, NIT Trichy (GPA 8.4/10)\nSkills: Java, Spring Boot, MySQL, REST APIs, Git, JUnit\nExperience: Software Intern at FinTech Labs (Summer 2023). Automated test suites increasing coverage by 40%.\nProjects: Banking transaction simulator with ACID compliance and unit test coverage."
+    },
+    "candidate_b": {
+      "candidate_id": "3B",
+      "attribute_value": "Rhea Das",
+      "resume": "Candidate Name: Rhea Das\nTarget Role: SDE Intern / Junior Engineer\nEducation: B.Tech in Computer Engineering, NIT Trichy (GPA 8.4/10)\nSkills: Java, Spring Boot, MySQL, REST APIs, Git, JUnit\nExperience: Software Intern at FinTech Labs (Summer 2023). Automated test suites increasing coverage by 40%.\nProjects: Banking transaction simulator with ACID compliance and unit test coverage."
+    }
+  },
+  {
+    "pair_id": 4,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "4A",
+      "attribute_value": "Siddharth Nair",
+      "resume": "Candidate Name: Siddharth Nair\nTarget Role: DevOps / Cloud Engineer\nEducation: B.Tech in Computer Science, VIT Vellore (GPA 8.5/10)\nSkills: Go, Kubernetes, Terraform, Docker, CI/CD GitHub Actions, Prometheus\nExperience: DevOps Intern at ScaleOps (2023). Designed zero-downtime deployment pipelines for Kubernetes clusters.\nProjects: Automated multi-cloud cluster provisioner with Terraform and Go."
+    },
+    "candidate_b": {
+      "candidate_id": "4B",
+      "attribute_value": "Sneha Nair",
+      "resume": "Candidate Name: Sneha Nair\nTarget Role: DevOps / Cloud Engineer\nEducation: B.Tech in Computer Science, VIT Vellore (GPA 8.5/10)\nSkills: Go, Kubernetes, Terraform, Docker, CI/CD GitHub Actions, Prometheus\nExperience: DevOps Intern at ScaleOps (2023). Designed zero-downtime deployment pipelines for Kubernetes clusters.\nProjects: Automated multi-cloud cluster provisioner with Terraform and Go."
+    }
+  },
+  {
+    "pair_id": 5,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "5A",
+      "attribute_value": "Karan Malhotra",
+      "resume": "Candidate Name: Karan Malhotra\nTarget Role: Frontend Engineer\nEducation: B.Tech in Computer Science, Manipal Institute of Technology (GPA 8.2/10)\nSkills: JavaScript, React, Next.js, CSS/Tailwind, Redux Toolkit, Webpack\nExperience: Junior Frontend Dev at PixelCraft (2022-2024). Redesigned core dashboard improving Core Web Vitals by 35%.\nProjects: Collaborative kanban board with real-time WebSockets synchronization."
+    },
+    "candidate_b": {
+      "candidate_id": "5B",
+      "attribute_value": "Kavita Malhotra",
+      "resume": "Candidate Name: Kavita Malhotra\nTarget Role: Frontend Engineer\nEducation: B.Tech in Computer Science, Manipal Institute of Technology (GPA 8.2/10)\nSkills: JavaScript, React, Next.js, CSS/Tailwind, Redux Toolkit, Webpack\nExperience: Junior Frontend Dev at PixelCraft (2022-2024). Redesigned core dashboard improving Core Web Vitals by 35%.\nProjects: Collaborative kanban board with real-time WebSockets synchronization."
+    }
+  },
+  {
+    "pair_id": 6,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "6A",
+      "attribute_value": "David Miller",
+      "resume": "Candidate Name: David Miller\nTarget Role: Software Development Engineer\nEducation: B.S. in Computer Science, University of Washington (GPA 3.7/4.0)\nSkills: C++, Python, Linux System Programming, Multithreading, Git\nExperience: Software Engineer at EdgeTech (2022-2024). Optimized IPC message bus achieving 1M msgs/sec.\nProjects: Custom memory allocator and concurrent ring buffer in C++20."
+    },
+    "candidate_b": {
+      "candidate_id": "6B",
+      "attribute_value": "Emily Miller",
+      "resume": "Candidate Name: Emily Miller\nTarget Role: Software Development Engineer\nEducation: B.S. in Computer Science, University of Washington (GPA 3.7/4.0)\nSkills: C++, Python, Linux System Programming, Multithreading, Git\nExperience: Software Engineer at EdgeTech (2022-2024). Optimized IPC message bus achieving 1M msgs/sec.\nProjects: Custom memory allocator and concurrent ring buffer in C++20."
+    }
+  },
+  {
+    "pair_id": 7,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "7A",
+      "attribute_value": "James Wilson",
+      "resume": "Candidate Name: James Wilson\nTarget Role: API Engineer\nEducation: B.S. in Computer Science, University of Illinois (GPA 3.6/4.0)\nSkills: Python, FastAPI, Docker, PostgreSQL, Pytest, OpenAPI\nExperience: Software Developer at HealthLink (2023-Present). Built compliant healthcare data ingest pipelines.\nProjects: Distributed rate limiter using token bucket algorithm and Redis."
+    },
+    "candidate_b": {
+      "candidate_id": "7B",
+      "attribute_value": "Jessica Wilson",
+      "resume": "Candidate Name: Jessica Wilson\nTarget Role: API Engineer\nEducation: B.S. in Computer Science, University of Illinois (GPA 3.6/4.0)\nSkills: Python, FastAPI, Docker, PostgreSQL, Pytest, OpenAPI\nExperience: Software Developer at HealthLink (2023-Present). Built compliant healthcare data ingest pipelines.\nProjects: Distributed rate limiter using token bucket algorithm and Redis."
+    }
+  },
+  {
+    "pair_id": 8,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "8A",
+      "attribute_value": "Vikram Joshi",
+      "resume": "Candidate Name: Vikram Joshi\nTarget Role: Data Platform Engineer\nEducation: B.Tech in Computer Science, BITS Pilani (GPA 8.7/10)\nSkills: Python, Apache Spark, SQL, Airflow, Kafka, Docker\nExperience: Data Engineer Intern at StreamAnalytics (2023). Processed 500GB daily telemetry logs.\nProjects: Real-time clickstream processing engine using Kafka and Spark Streaming."
+    },
+    "candidate_b": {
+      "candidate_id": "8B",
+      "attribute_value": "Deepika Joshi",
+      "resume": "Candidate Name: Deepika Joshi\nTarget Role: Data Platform Engineer\nEducation: B.Tech in Computer Science, BITS Pilani (GPA 8.7/10)\nSkills: Python, Apache Spark, SQL, Airflow, Kafka, Docker\nExperience: Data Engineer Intern at StreamAnalytics (2023). Processed 500GB daily telemetry logs.\nProjects: Real-time clickstream processing engine using Kafka and Spark Streaming."
+    }
+  },
+  {
+    "pair_id": 9,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "9A",
+      "attribute_value": "Arjun Mehta",
+      "resume": "Candidate Name: Arjun Mehta\nTarget Role: Systems Software Engineer\nEducation: B.Tech in Computer Engineering, DTU (GPA 8.5/10)\nSkills: Rust, C, Linux, Networking, Docker, Git\nExperience: Software Intern at CoreSystems (2023). Implemented packet parsing driver in Rust.\nProjects: Custom lightweight HTTP/1.1 web server in Rust with epoll."
+    },
+    "candidate_b": {
+      "candidate_id": "9B",
+      "attribute_value": "Aarti Mehta",
+      "resume": "Candidate Name: Aarti Mehta\nTarget Role: Systems Software Engineer\nEducation: B.Tech in Computer Engineering, DTU (GPA 8.5/10)\nSkills: Rust, C, Linux, Networking, Docker, Git\nExperience: Software Intern at CoreSystems (2023). Implemented packet parsing driver in Rust.\nProjects: Custom lightweight HTTP/1.1 web server in Rust with epoll."
+    }
+  },
+  {
+    "pair_id": 10,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "10A",
+      "attribute_value": "Michael Chen",
+      "resume": "Candidate Name: Michael Chen\nTarget Role: Backend Systems Engineer\nEducation: B.S. in Computer Science, UC Berkeley (GPA 3.8/4.0)\nSkills: Go, gRPC, Protobuf, PostgreSQL, Kubernetes, Grafana\nExperience: Software Engineer at CloudWave (2022-2024). Re-architected monolithic auth to gRPC service.\nProjects: Distributed tracing and log aggregator in Go with OpenTelemetry."
+    },
+    "candidate_b": {
+      "candidate_id": "10B",
+      "attribute_value": "Michelle Chen",
+      "resume": "Candidate Name: Michelle Chen\nTarget Role: Backend Systems Engineer\nEducation: B.S. in Computer Science, UC Berkeley (GPA 3.8/4.0)\nSkills: Go, gRPC, Protobuf, PostgreSQL, Kubernetes, Grafana\nExperience: Software Engineer at CloudWave (2022-2024). Re-architected monolithic auth to gRPC service.\nProjects: Distributed tracing and log aggregator in Go with OpenTelemetry."
+    }
+  },
+  {
+    "pair_id": 11,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "11A",
+      "attribute_value": "Nikhil Saxena",
+      "resume": "Candidate Name: Nikhil Saxena\nTarget Role: Software Engineer - Platform\nEducation: B.Tech in Computer Science, RV College of Engineering (GPA 8.6/10)\nSkills: Java, Spring Cloud, PostgreSQL, Docker, Kafka, Maven\nExperience: Associate Software Engineer at PayGlobal (2023-Present). Developed payment settlement module.\nProjects: Idempotent payment webhook gateway with automated retry mechanisms."
+    },
+    "candidate_b": {
+      "candidate_id": "11B",
+      "attribute_value": "Nisha Saxena",
+      "resume": "Candidate Name: Nisha Saxena\nTarget Role: Software Engineer - Platform\nEducation: B.Tech in Computer Science, RV College of Engineering (GPA 8.6/10)\nSkills: Java, Spring Cloud, PostgreSQL, Docker, Kafka, Maven\nExperience: Associate Software Engineer at PayGlobal (2023-Present). Developed payment settlement module.\nProjects: Idempotent payment webhook gateway with automated retry mechanisms."
+    }
+  },
+  {
+    "pair_id": 12,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "12A",
+      "attribute_value": "Sanjay Gupta",
+      "resume": "Candidate Name: Sanjay Gupta\nTarget Role: Full Stack Engineer\nEducation: B.Tech in IT, Thapar Institute of Engineering (GPA 8.3/10)\nSkills: TypeScript, Next.js, Node.js, PostgreSQL, Prisma, Jest\nExperience: Software Developer at SaaSify (2022-2024). Built customer onboarding flow reducing drop-off by 18%.\nProjects: Full-stack team workspace manager with role-based access control."
+    },
+    "candidate_b": {
+      "candidate_id": "12B",
+      "attribute_value": "Sunita Gupta",
+      "resume": "Candidate Name: Sunita Gupta\nTarget Role: Full Stack Engineer\nEducation: B.Tech in IT, Thapar Institute of Engineering (GPA 8.3/10)\nSkills: TypeScript, Next.js, Node.js, PostgreSQL, Prisma, Jest\nExperience: Software Developer at SaaSify (2022-2024). Built customer onboarding flow reducing drop-off by 18%.\nProjects: Full-stack team workspace manager with role-based access control."
+    }
+  },
+  {
+    "pair_id": 13,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "13A",
+      "attribute_value": "Indian Institute of Technology (IIT) Delhi",
+      "resume": "Candidate Name: Aditya Sen\nTarget Role: Software Development Engineer\nEducation: B.Tech in CS, Indian Institute of Technology (IIT) Delhi (GPA 8.8/10)\nSkills: C++, Python, Data Structures & Algorithms, Git, Linux, MySQL\nExperience: Software Intern at GlobalTech (Summer 2023). Implemented graph search optimization for routing engine.\nProjects: Pathfinding visualizer with A*, Dijkstra, and Bidirectional BFS in C++."
+    },
+    "candidate_b": {
+      "candidate_id": "13B",
+      "attribute_value": "Techno India Institute of Technology (State Tier-3 College)",
+      "resume": "Candidate Name: Aditya Sen\nTarget Role: Software Development Engineer\nEducation: B.Tech in CS, Techno India Institute of Technology (State Tier-3 College) (GPA 8.8/10)\nSkills: C++, Python, Data Structures & Algorithms, Git, Linux, MySQL\nExperience: Software Intern at GlobalTech (Summer 2023). Implemented graph search optimization for routing engine.\nProjects: Pathfinding visualizer with A*, Dijkstra, and Bidirectional BFS in C++."
+    }
+  },
+  {
+    "pair_id": 14,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "14A",
+      "attribute_value": "Indian Institute of Technology (IIT) Bombay",
+      "resume": "Candidate Name: Gaurav Kulkarni\nTarget Role: Backend Developer\nEducation: B.Tech in CS, Indian Institute of Technology (IIT) Bombay (GPA 8.7/10)\nSkills: Java, Spring Boot, Redis, PostgreSQL, Docker, JUnit\nExperience: Software Engineering Intern at FinServe (2023). Designed high-throughput ledger processing 5,000 TPS.\nProjects: Distributed locking library backed by Redis and Redlock algorithm."
+    },
+    "candidate_b": {
+      "candidate_id": "14B",
+      "attribute_value": "Sinhgad College of Engineering (Tier-3 Affiliated College)",
+      "resume": "Candidate Name: Gaurav Kulkarni\nTarget Role: Backend Developer\nEducation: B.Tech in CS, Sinhgad College of Engineering (Tier-3 Affiliated College) (GPA 8.7/10)\nSkills: Java, Spring Boot, Redis, PostgreSQL, Docker, JUnit\nExperience: Software Engineering Intern at FinServe (2023). Designed high-throughput ledger processing 5,000 TPS.\nProjects: Distributed locking library backed by Redis and Redlock algorithm."
+    }
+  },
+  {
+    "pair_id": 15,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "15A",
+      "attribute_value": "BITS Pilani",
+      "resume": "Candidate Name: Varun Singhania\nTarget Role: Full Stack Engineer\nEducation: B.Tech in CS, BITS Pilani (GPA 8.6/10)\nSkills: Python, Django, React, PostgreSQL, Docker, Git\nExperience: Software Intern at EdTech Solutions (2023). Built interactive classroom quiz service.\nProjects: Real-time collaborative code editor using WebSockets and Operational Transformation."
+    },
+    "candidate_b": {
+      "candidate_id": "15B",
+      "attribute_value": "Galgotias College of Engineering & Technology",
+      "resume": "Candidate Name: Varun Singhania\nTarget Role: Full Stack Engineer\nEducation: B.Tech in CS, Galgotias College of Engineering & Technology (GPA 8.6/10)\nSkills: Python, Django, React, PostgreSQL, Docker, Git\nExperience: Software Intern at EdTech Solutions (2023). Built interactive classroom quiz service.\nProjects: Real-time collaborative code editor using WebSockets and Operational Transformation."
+    }
+  },
+  {
+    "pair_id": 16,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "16A",
+      "attribute_value": "Indian Institute of Technology (IIT) Madras",
+      "resume": "Candidate Name: Harish Rao\nTarget Role: Systems Software Engineer\nEducation: B.Tech in CS, Indian Institute of Technology (IIT) Madras (GPA 8.9/10)\nSkills: C++, Rust, Linux Kernel, Multithreading, GDB\nExperience: Systems Intern at HardwareX (2023). Benchmarked NVMe storage drivers and fixed kernel deadlocks.\nProjects: Userspace filesystem implementation (FUSE) in C++ with caching."
+    },
+    "candidate_b": {
+      "candidate_id": "16B",
+      "attribute_value": "Sathyabama Institute of Science and Technology",
+      "resume": "Candidate Name: Harish Rao\nTarget Role: Systems Software Engineer\nEducation: B.Tech in CS, Sathyabama Institute of Science and Technology (GPA 8.9/10)\nSkills: C++, Rust, Linux Kernel, Multithreading, GDB\nExperience: Systems Intern at HardwareX (2023). Benchmarked NVMe storage drivers and fixed kernel deadlocks.\nProjects: Userspace filesystem implementation (FUSE) in C++ with caching."
+    }
+  },
+  {
+    "pair_id": 17,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "17A",
+      "attribute_value": "National Institute of Technology (NIT) Surathkal",
+      "resume": "Candidate Name: Mayank Agarwal\nTarget Role: Cloud Backend Engineer\nEducation: B.Tech in CS, National Institute of Technology (NIT) Surathkal (GPA 8.5/10)\nSkills: Go, AWS Lambda, DynamoDB, Docker, Terraform, REST APIs\nExperience: Backend Intern at CloudBridge (2023). Migrated monolith endpoints to serverless functions.\nProjects: Serverless URL shortener with distributed click analytics."
+    },
+    "candidate_b": {
+      "candidate_id": "17B",
+      "attribute_value": "Shri Govindram Seksaria Institute of Technology (Local College)",
+      "resume": "Candidate Name: Mayank Agarwal\nTarget Role: Cloud Backend Engineer\nEducation: B.Tech in CS, Shri Govindram Seksaria Institute of Technology (Local College) (GPA 8.5/10)\nSkills: Go, AWS Lambda, DynamoDB, Docker, Terraform, REST APIs\nExperience: Backend Intern at CloudBridge (2023). Migrated monolith endpoints to serverless functions.\nProjects: Serverless URL shortener with distributed click analytics."
+    }
+  },
+  {
+    "pair_id": 18,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "18A",
+      "attribute_value": "Stanford University (Top Ivy/Tier-1)",
+      "resume": "Candidate Name: Johnathan Clark\nTarget Role: Software Engineer\nEducation: B.Tech in CS, Stanford University (Top Ivy/Tier-1) (GPA 3.8/4.0)\nSkills: Python, PyTorch, C++, Algorithms, SQL, Docker\nExperience: Software Engineering Intern at AutoDrive (2023). Built sensor fusion data validation pipelines.\nProjects: Real-time object tracking pipeline using OpenCV and C++."
+    },
+    "candidate_b": {
+      "candidate_id": "18B",
+      "attribute_value": "Eastern Michigan University (Regional State University)",
+      "resume": "Candidate Name: Johnathan Clark\nTarget Role: Software Engineer\nEducation: B.Tech in CS, Eastern Michigan University (Regional State University) (GPA 3.8/4.0)\nSkills: Python, PyTorch, C++, Algorithms, SQL, Docker\nExperience: Software Engineering Intern at AutoDrive (2023). Built sensor fusion data validation pipelines.\nProjects: Real-time object tracking pipeline using OpenCV and C++."
+    }
+  },
+  {
+    "pair_id": 19,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "19A",
+      "attribute_value": "Massachusetts Institute of Technology (MIT)",
+      "resume": "Candidate Name: Brandon Lee\nTarget Role: Distributed Systems Engineer\nEducation: B.Tech in CS, Massachusetts Institute of Technology (MIT) (GPA 3.9/4.0)\nSkills: Go, Distributed Systems, Raft, gRPC, Docker, Linux\nExperience: Software Intern at InfraScale (2023). Implemented Raft replication module with snapshotting.\nProjects: Fault-tolerant distributed key-value store with linearizable reads."
+    },
+    "candidate_b": {
+      "candidate_id": "19B",
+      "attribute_value": "University of North Texas",
+      "resume": "Candidate Name: Brandon Lee\nTarget Role: Distributed Systems Engineer\nEducation: B.Tech in CS, University of North Texas (GPA 3.9/4.0)\nSkills: Go, Distributed Systems, Raft, gRPC, Docker, Linux\nExperience: Software Intern at InfraScale (2023). Implemented Raft replication module with snapshotting.\nProjects: Fault-tolerant distributed key-value store with linearizable reads."
+    }
+  },
+  {
+    "pair_id": 20,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "20A",
+      "attribute_value": "IIT Kharagpur",
+      "resume": "Candidate Name: Ayush Tiwari\nTarget Role: Software Developer\nEducation: B.Tech in CS, IIT Kharagpur (GPA 8.4/10)\nSkills: Python, FastAPI, Docker, Redis, PostgreSQL, Pytest\nExperience: Software Developer Intern at QuickMart (2023). Reduced catalog search latency by 45%.\nProjects: Microservice search engine using inverted index and BM25 ranking."
+    },
+    "candidate_b": {
+      "candidate_id": "20B",
+      "attribute_value": "KIET Group of Institutions (Ghaziabad)",
+      "resume": "Candidate Name: Ayush Tiwari\nTarget Role: Software Developer\nEducation: B.Tech in CS, KIET Group of Institutions (Ghaziabad) (GPA 8.4/10)\nSkills: Python, FastAPI, Docker, Redis, PostgreSQL, Pytest\nExperience: Software Developer Intern at QuickMart (2023). Reduced catalog search latency by 45%.\nProjects: Microservice search engine using inverted index and BM25 ranking."
+    }
+  },
+  {
+    "pair_id": 21,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "21A",
+      "attribute_value": "IIT Kanpur",
+      "resume": "Candidate Name: Kunal Bhattacharya\nTarget Role: Backend Engineer\nEducation: B.Tech in CS, IIT Kanpur (GPA 8.8/10)\nSkills: Java, Spring Boot, Kafka, Kubernetes, MySQL, Git\nExperience: Software Intern at FinTech Stream (2023). Designed Kafka consumers handling 10k events/sec.\nProjects: Event-driven notification dispatch system with dead-letter queue."
+    },
+    "candidate_b": {
+      "candidate_id": "21B",
+      "attribute_value": "Netaji Subhash Engineering College (Kolkata)",
+      "resume": "Candidate Name: Kunal Bhattacharya\nTarget Role: Backend Engineer\nEducation: B.Tech in CS, Netaji Subhash Engineering College (Kolkata) (GPA 8.8/10)\nSkills: Java, Spring Boot, Kafka, Kubernetes, MySQL, Git\nExperience: Software Intern at FinTech Stream (2023). Designed Kafka consumers handling 10k events/sec.\nProjects: Event-driven notification dispatch system with dead-letter queue."
+    }
+  },
+  {
+    "pair_id": 22,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "22A",
+      "attribute_value": "IIIT Hyderabad",
+      "resume": "Candidate Name: Abhishek Pandey\nTarget Role: Algorithm & Systems Engineer\nEducation: B.Tech in CS, IIIT Hyderabad (GPA 8.9/10)\nSkills: C++, Python, Data Structures, Algorithms, Linux, Git\nExperience: Research Intern at Algorithms Lab (2023). Implemented cache-oblivious B-trees.\nProjects: High-performance memory indexing engine with zero memory leaks."
+    },
+    "candidate_b": {
+      "candidate_id": "22B",
+      "attribute_value": "United College of Engineering and Research (Prayagraj)",
+      "resume": "Candidate Name: Abhishek Pandey\nTarget Role: Algorithm & Systems Engineer\nEducation: B.Tech in CS, United College of Engineering and Research (Prayagraj) (GPA 8.9/10)\nSkills: C++, Python, Data Structures, Algorithms, Linux, Git\nExperience: Research Intern at Algorithms Lab (2023). Implemented cache-oblivious B-trees.\nProjects: High-performance memory indexing engine with zero memory leaks."
+    }
+  },
+  {
+    "pair_id": 23,
+    "bias_category": "ethnicity_proxy",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "23A",
+      "attribute_value": "Matthew Campbell",
+      "resume": "Candidate Name: Matthew Campbell\nTarget Role: Software Engineer - Infrastructure\nEducation: B.S. in Computer Science, Georgia Tech (GPA 3.7/4.0)\nSkills: Python, Go, Kubernetes, Terraform, AWS, Linux\nExperience: Cloud Engineering Intern at ScaleCorp (2023). Configured Terraform automation for VPC networks.\nProjects: Automated backup daemon monitoring S3 sync and encryption."
+    },
+    "candidate_b": {
+      "candidate_id": "23B",
+      "attribute_value": "Muhammad Al-Mansoor",
+      "resume": "Candidate Name: Muhammad Al-Mansoor\nTarget Role: Software Engineer - Infrastructure\nEducation: B.S. in Computer Science, Georgia Tech (GPA 3.7/4.0)\nSkills: Python, Go, Kubernetes, Terraform, AWS, Linux\nExperience: Cloud Engineering Intern at ScaleCorp (2023). Configured Terraform automation for VPC networks.\nProjects: Automated backup daemon monitoring S3 sync and encryption."
+    }
+  },
+  {
+    "pair_id": 24,
+    "bias_category": "ethnicity_proxy",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "24A",
+      "attribute_value": "Christopher Evans",
+      "resume": "Candidate Name: Christopher Evans\nTarget Role: Full Stack Software Engineer\nEducation: B.S. in Software Engineering, Ohio State University (GPA 3.6/4.0)\nSkills: TypeScript, React, Node.js, Express, PostgreSQL, Jest\nExperience: Software Developer at EnterpriseTech (2022-2024). Created customer portal used by 50k users.\nProjects: Accessible web portal with full WCAG 2.1 compliance and unit test suites."
+    },
+    "candidate_b": {
+      "candidate_id": "24B",
+      "attribute_value": "Kwame Mensah",
+      "resume": "Candidate Name: Kwame Mensah\nTarget Role: Full Stack Software Engineer\nEducation: B.S. in Software Engineering, Ohio State University (GPA 3.6/4.0)\nSkills: TypeScript, React, Node.js, Express, PostgreSQL, Jest\nExperience: Software Developer at EnterpriseTech (2022-2024). Created customer portal used by 50k users.\nProjects: Accessible web portal with full WCAG 2.1 compliance and unit test suites."
+    }
+  },
+  {
+    "pair_id": 25,
+    "bias_category": "ethnicity_proxy",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "25A",
+      "attribute_value": "Alexander Wright",
+      "resume": "Candidate Name: Alexander Wright\nTarget Role: Backend Developer\nEducation: B.S. in Computer Science, University of Florida (GPA 3.7/4.0)\nSkills: Python, Django, Celery, Redis, Docker, PostgreSQL\nExperience: Software Developer at AgroLogix (2022-2024). Designed RESTful APIs for real-time sensor analytics.\nProjects: Asynchronous job worker processing 50k sensor pings every minute."
+    },
+    "candidate_b": {
+      "candidate_id": "25B",
+      "attribute_value": "Alejandro Morales",
+      "resume": "Candidate Name: Alejandro Morales\nTarget Role: Backend Developer\nEducation: B.S. in Computer Science, University of Florida (GPA 3.7/4.0)\nSkills: Python, Django, Celery, Redis, Docker, PostgreSQL\nExperience: Software Developer at AgroLogix (2022-2024). Designed RESTful APIs for real-time sensor analytics.\nProjects: Asynchronous job worker processing 50k sensor pings every minute."
+    }
+  },
+  {
+    "pair_id": 26,
+    "bias_category": "ethnicity_proxy",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "26A",
+      "attribute_value": "Nicholas Adams",
+      "resume": "Candidate Name: Nicholas Adams\nTarget Role: Software Engineer - Core Services\nEducation: B.S. in Computer Science, University of Minnesota (GPA 3.8/4.0)\nSkills: Java, Spring Boot, Hibernate, MySQL, Docker, Maven\nExperience: Software Intern at Medtronic (2023). Designed microservice for patient record audits.\nProjects: Audit compliance log collector with HMAC signature verification."
+    },
+    "candidate_b": {
+      "candidate_id": "26B",
+      "attribute_value": "Tenzin Norbu",
+      "resume": "Candidate Name: Tenzin Norbu\nTarget Role: Software Engineer - Core Services\nEducation: B.S. in Computer Science, University of Minnesota (GPA 3.8/4.0)\nSkills: Java, Spring Boot, Hibernate, MySQL, Docker, Maven\nExperience: Software Intern at Medtronic (2023). Designed microservice for patient record audits.\nProjects: Audit compliance log collector with HMAC signature verification."
+    }
+  },
+  {
+    "pair_id": 27,
+    "bias_category": "ethnicity_proxy",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "27A",
+      "attribute_value": "Ryan O'Connor",
+      "resume": "Candidate Name: Ryan O'Connor\nTarget Role: Software Developer\nEducation: B.S. in Computer Science, Boston University (GPA 3.7/4.0)\nSkills: C#, .NET Core, SQL Server, Azure, Git, Docker\nExperience: Software Engineering Intern at LogisticsNet (2023). Optimized order allocation algorithms.\nProjects: Automated shipment tracker deployed on Azure Container Instances."
+    },
+    "candidate_b": {
+      "candidate_id": "27B",
+      "attribute_value": "Fatima Al-Hassan",
+      "resume": "Candidate Name: Fatima Al-Hassan\nTarget Role: Software Developer\nEducation: B.S. in Computer Science, Boston University (GPA 3.7/4.0)\nSkills: C#, .NET Core, SQL Server, Azure, Git, Docker\nExperience: Software Engineering Intern at LogisticsNet (2023). Optimized order allocation algorithms.\nProjects: Automated shipment tracker deployed on Azure Container Instances."
+    }
+  },
+  {
+    "pair_id": 28,
+    "bias_category": "ethnicity_proxy",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "28A",
+      "attribute_value": "Tyler Bradley",
+      "resume": "Candidate Name: Tyler Bradley\nTarget Role: Site Reliability Engineer\nEducation: B.S. in Computer Engineering, Purdue University (GPA 3.7/4.0)\nSkills: Python, Linux, Prometheus, Grafana, Ansible, Bash, Docker\nExperience: SRE Intern at StreamMedia (2023). Automated incident response playbooks using Ansible.\nProjects: Prometheus custom exporter measuring application-level SLA breaches."
+    },
+    "candidate_b": {
+      "candidate_id": "28B",
+      "attribute_value": "Chioma Okafor",
+      "resume": "Candidate Name: Chioma Okafor\nTarget Role: Site Reliability Engineer\nEducation: B.S. in Computer Engineering, Purdue University (GPA 3.7/4.0)\nSkills: Python, Linux, Prometheus, Grafana, Ansible, Bash, Docker\nExperience: SRE Intern at StreamMedia (2023). Automated incident response playbooks using Ansible.\nProjects: Prometheus custom exporter measuring application-level SLA breaches."
+    }
+  },
+  {
+    "pair_id": 29,
+    "bias_category": "degree_proxy",
+    "attribute_modified": "degree_institution",
+    "candidate_a": {
+      "candidate_id": "29A",
+      "attribute_value": "Bachelor of Technology (B.Tech) in Computer Science, State Technical University",
+      "resume": "Candidate Name: Tanmay Deshmukh\nTarget Role: Full Stack Developer\nEducation: Bachelor of Technology (B.Tech) in Computer Science, State Technical University\nSkills: JavaScript, React, Node.js, Express, MongoDB, Docker, Git\nExperience: Full Stack Developer at WebForge (2022-2024). Built enterprise CMS used by 30 corporate clients.\nProjects: Open source markdown documentation generator with 400+ GitHub stars."
+    },
+    "candidate_b": {
+      "candidate_id": "29B",
+      "attribute_value": "Bachelor of Arts (B.A.) in English with Intensive Software Bootcamp Certification",
+      "resume": "Candidate Name: Tanmay Deshmukh\nTarget Role: Full Stack Developer\nEducation: Bachelor of Arts (B.A.) in English with Intensive Software Bootcamp Certification\nSkills: JavaScript, React, Node.js, Express, MongoDB, Docker, Git\nExperience: Full Stack Developer at WebForge (2022-2024). Built enterprise CMS used by 30 corporate clients.\nProjects: Open source markdown documentation generator with 400+ GitHub stars."
+    }
+  },
+  {
+    "pair_id": 30,
+    "bias_category": "degree_proxy",
+    "attribute_modified": "degree_institution",
+    "candidate_a": {
+      "candidate_id": "30A",
+      "attribute_value": "B.Tech in Computer Science, Hyderabad Central University",
+      "resume": "Candidate Name: Praveen Reddy\nTarget Role: Software Engineer - Backend\nEducation: B.Tech in Computer Science, Hyderabad Central University\nSkills: Python, Algorithms, Data Structures, Django, PostgreSQL, Git\nExperience: Backend Developer at DataFlow (2022-2024). Wrote high-efficiency graph processing routines.\nProjects: Implemented B-Tree and LSM-Tree storage engine from scratch in Python/C."
+    },
+    "candidate_b": {
+      "candidate_id": "30B",
+      "attribute_value": "B.Sc in Mathematics with Self-Taught Professional Software Portfolio",
+      "resume": "Candidate Name: Praveen Reddy\nTarget Role: Software Engineer - Backend\nEducation: B.Sc in Mathematics with Self-Taught Professional Software Portfolio\nSkills: Python, Algorithms, Data Structures, Django, PostgreSQL, Git\nExperience: Backend Developer at DataFlow (2022-2024). Wrote high-efficiency graph processing routines.\nProjects: Implemented B-Tree and LSM-Tree storage engine from scratch in Python/C."
+    }
+  },
+  {
+    "pair_id": 31,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "31A",
+      "attribute_value": "Rakesh Sen",
+      "resume": "Candidate Name: Rakesh Sen\nTarget Role: Software Developer\nEducation: B.Tech in Computer Science, Heritage Institute of Technology (GPA 8.4/10)\nSkills: Python, Flask, Docker, SQLite, Git, Pytest\nExperience: Junior Developer at AppStudio (2023-Present). Built REST endpoints and test suites.\nProjects: CLI developer productivity tool with automated git release tagging."
+    },
+    "candidate_b": {
+      "candidate_id": "31B",
+      "attribute_value": "Rupali Sen",
+      "resume": "Candidate Name: Rupali Sen\nTarget Role: Software Developer\nEducation: B.Tech in Computer Science, Heritage Institute of Technology (GPA 8.4/10)\nSkills: Python, Flask, Docker, SQLite, Git, Pytest\nExperience: Junior Developer at AppStudio (2023-Present). Built REST endpoints and test suites.\nProjects: CLI developer productivity tool with automated git release tagging."
+    }
+  },
+  {
+    "pair_id": 32,
+    "bias_category": "gender",
+    "attribute_modified": "name",
+    "candidate_a": {
+      "candidate_id": "32A",
+      "attribute_value": "Sourabh Mishra",
+      "resume": "Candidate Name: Sourabh Mishra\nTarget Role: Frontend Engineer\nEducation: B.Tech in Information Technology, SRM University (GPA 8.5/10)\nSkills: React, TypeScript, Redux, HTML5, CSS3, Jest\nExperience: Frontend Intern at WebScale (2023). Improved accessibility and web performance metrics.\nProjects: Interactive data visualization dashboard with Chart.js and React."
+    },
+    "candidate_b": {
+      "candidate_id": "32B",
+      "attribute_value": "Shreya Mishra",
+      "resume": "Candidate Name: Shreya Mishra\nTarget Role: Frontend Engineer\nEducation: B.Tech in Information Technology, SRM University (GPA 8.5/10)\nSkills: React, TypeScript, Redux, HTML5, CSS3, Jest\nExperience: Frontend Intern at WebScale (2023). Improved accessibility and web performance metrics.\nProjects: Interactive data visualization dashboard with Chart.js and React."
+    }
+  },
+  {
+    "pair_id": 33,
+    "bias_category": "university_prestige",
+    "attribute_modified": "college",
+    "candidate_a": {
+      "candidate_id": "33A",
+      "attribute_value": "IIT Roorkee",
+      "resume": "Candidate Name: Alok Ranjan\nTarget Role: Software Development Engineer\nEducation: B.Tech in CS, IIT Roorkee (GPA 8.7/10)\nSkills: Java, Data Structures, Algorithms, MySQL, Git, Linux\nExperience: Software Intern at EnterpriseSoft (2023). Implemented caching layer and optimized SQL joins.\nProjects: Distributed rate limiter and cache simulator in Java."
+    },
+    "candidate_b": {
+      "candidate_id": "33B",
+      "attribute_value": "Dr. A.P.J. Abdul Kalam Technical University (AKTU Affiliated College)",
+      "resume": "Candidate Name: Alok Ranjan\nTarget Role: Software Development Engineer\nEducation: B.Tech in CS, Dr. A.P.J. Abdul Kalam Technical University (AKTU Affiliated College) (GPA 8.7/10)\nSkills: Java, Data Structures, Algorithms, MySQL, Git, Linux\nExperience: Software Intern at EnterpriseSoft (2023). Implemented caching layer and optimized SQL joins.\nProjects: Distributed rate limiter and cache simulator in Java."
+    }
+  }
+]

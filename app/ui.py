@@ -29,7 +29,11 @@ st.caption("Reliability, Hallucination & Safety Hackathon | PE Team 13 Prototype
 st.sidebar.header("⚙️ Configuration")
 mode = st.sidebar.radio(
     "Evaluation Mode",
-    ["Side-by-Side Audit (v1 vs v2)", "Single Version Screening"],
+    [
+        "Side-by-Side Audit (v1 vs v2)",
+        "Single Version Screening",
+        "Batch Counterfactual Audit (30+ Pairs)",
+    ],
 )
 
 st.sidebar.markdown("---")
@@ -212,3 +216,56 @@ else:  # Side-by-Side Audit
                             )
                 except Exception as e:
                     st.error(f"Application error during comparative audit: {e}")
+
+if mode == "Batch Counterfactual Audit (30+ Pairs)":
+    from app.batch import (
+        batch_results_to_dataframe,
+        flatten_pairs_to_candidates,
+        load_counterfactual_pairs,
+        run_batch,
+    )
+
+    st.markdown("---")
+    st.subheader("🗂️ Batch Counterfactual Bias Audit")
+    st.markdown(
+        "Run evaluation across 30+ counterfactual pairs where candidate qualifications are identical "
+        "except for demographic, institutional, or proxy attributes."
+    )
+
+    all_pairs = load_counterfactual_pairs()
+    st.info(f"Loaded **{len(all_pairs)} counterfactual pairs** ({len(all_pairs) * 2} candidate resumes) from dataset.")
+
+    b_col1, b_col2 = st.columns(2)
+    with b_col1:
+        batch_version = st.selectbox("Prompt Version for Batch", ["v1", "v2"], index=0)
+    with b_col2:
+        max_pairs = st.slider("Number of pairs to evaluate", min_value=1, max_value=len(all_pairs), value=min(10, len(all_pairs)))
+
+    if st.button("🚀 Run Batch Evaluation", type="primary"):
+        selected_pairs = all_pairs[:max_pairs]
+        candidates = flatten_pairs_to_candidates(selected_pairs)
+        progress_bar = st.progress(0)
+        status_text = st.empty()
+
+        client = get_llm_client(provider=provider_arg)
+        batch_results = []
+
+        for i, cand in enumerate(candidates):
+            status_text.text(f"Evaluating candidate {i + 1}/{len(candidates)} ({cand.candidate_id})...")
+            res_list = run_batch([cand], prompt_version=batch_version, job_description=job_desc, client=client)
+            batch_results.extend(res_list)
+            progress_bar.progress((i + 1) / len(candidates))
+
+        status_text.text("Batch evaluation complete!")
+        df = batch_results_to_dataframe(batch_results)
+        st.dataframe(df, use_container_width=True)
+
+        # Download buttons
+        csv_data = df.to_csv(index=False).encode("utf-8")
+        st.download_button(
+            label="📥 Download Results as CSV",
+            data=csv_data,
+            file_name=f"batch_screening_{batch_version}.csv",
+            mime="text/csv",
+        )
+
